@@ -1,8 +1,4 @@
 describe("API learning", () => {
-  let pageURL = "https://the-internet.herokuapp.com";
-  let jsLinkText = "=JavaScript Alerts";
-  let jsConfirm = 'button[onclick="jsAlert()"]';
-
   it("Alert handler", async () => {
     await browser.url(pageURL);
 

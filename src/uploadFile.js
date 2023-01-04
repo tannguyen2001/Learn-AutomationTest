@@ -8,7 +8,7 @@ describe("API learning", () => {
   it("Upload File", async () => {
     // open the upload page
     await browser.url(pageURL);
-    await $(chooseFileSelector).waitForDisplayed(5000);
+    // await $(chooseFileSelector).waitForDisplayed(5000);
 
     // set Value for file path
     let fileToUploadPath = path.join(__dirname, "./toUpload.txt");

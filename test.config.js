@@ -1,6 +1,6 @@
 exports.config = {
   //Test script
-  specs: ["src/handlerMultipleTabs.js"],
+  specs: ["src/multipleTestCases.js"],
 
   capabilities: [
     {
