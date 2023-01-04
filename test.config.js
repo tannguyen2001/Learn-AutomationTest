@@ -1,6 +1,6 @@
 exports.config = {
   //Test script
-  specs: ["src/saveScreenshot.js"],
+  specs: ["src/waitFordisplayIsRemove.js"],
 
   capabilities: [
     {
