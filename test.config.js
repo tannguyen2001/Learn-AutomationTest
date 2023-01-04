@@ -1,6 +1,6 @@
 exports.config = {
   //Test script
-  specs: ["src/alertHandler.js"],
+  specs: ["src/handlerMultipleTabs.js"],
 
   capabilities: [
     {
