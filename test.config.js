@@ -1,6 +1,6 @@
 exports.config = {
   //Test script
-  specs: ["src/getValueAndTitle.js"],
+  specs: ["src/alertHandler.js"],
 
   capabilities: [
     {
