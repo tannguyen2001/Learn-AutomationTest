@@ -1,6 +1,6 @@
 exports.config = {
   //Test script
-  specs: ["TC_001_Login.js"],
+  specs: ["src/waitForDisplay.js"],
 
   capabilities: [
     {
@@ -19,5 +19,6 @@ exports.config = {
   framework: "mocha",
   mochaOpts: {
     ui: "bdd",
+    timeout: 600000,
   },
 };
