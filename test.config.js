@@ -1,6 +1,6 @@
 exports.config = {
   //Test script
-  specs: ["src/click.js"],
+  specs: ["src/selectBy.js"],
 
   capabilities: [
     {
