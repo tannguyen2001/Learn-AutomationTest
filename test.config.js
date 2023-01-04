@@ -1,6 +1,6 @@
 exports.config = {
   //Test script
-  specs: ["src/selectBy.js"],
+  specs: ["src/getValueAndTitle.js"],
 
   capabilities: [
     {
