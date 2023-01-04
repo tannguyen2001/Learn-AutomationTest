@@ -1,6 +1,6 @@
 exports.config = {
   //Test script
-  specs: ["src/waitForDisplay.js"],
+  specs: ["src/click.js"],
 
   capabilities: [
     {
