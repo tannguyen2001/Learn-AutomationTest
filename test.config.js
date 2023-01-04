@@ -1,6 +1,6 @@
 exports.config = {
   //Test script
-  specs: ["src/cssHandle.js"],
+  specs: ["src/saveScreenshot.js"],
 
   capabilities: [
     {
